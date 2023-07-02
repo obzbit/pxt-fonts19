@@ -19,13 +19,16 @@ to search box then search.
 
 ## Basic usage
 
+![](microbit-screenshot.png)  
+
 ```
-let item = 0
+let num = 0
 basic.forever(function () {
-    whaleysans.showNumber(item)
-    item += 1
-    if (item > 20) {
-        item = 0
+    num += 1
+    whaleysans.showNumber(num)
+    basic.pause(100)
+    if (num > 20) {
+        num = 0
     }
 })
 ```
