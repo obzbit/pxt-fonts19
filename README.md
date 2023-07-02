@@ -2,7 +2,7 @@
 
 Modified from: makecode WhaleySans Font extension for micro:bit
 
-WhaleySans Font is from [whaleygeek/mb_clock](https://github.com/whaleygeek/mb_clock).
+The original WhaleySans Font is from [whaleygeek/mb_clock](https://github.com/whaleygeek/mb_clock).
 
 
 ![](icon.png)  
@@ -10,7 +10,7 @@ WhaleySans Font is from [whaleygeek/mb_clock](https://github.com/whaleygeek/mb_c
 
 ## Add extension
 
-open your microbit makecode project, in Add Package, paste  
+Open your microbit makecode project. In Add Package, paste  
 
 https://github.com/ykmak/pxt-whaleysans
 
@@ -43,7 +43,7 @@ dat: 0-19
 
 MIT
 
-(Original) WhaleySans Font: Copyright (c) 2018, microbit/micropython Chinese community  
+The original WhaleySans Font: Copyright (c) 2018, microbit/micropython Chinese community  
 
 ## Supported targets
 
