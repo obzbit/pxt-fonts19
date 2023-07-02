@@ -31,7 +31,7 @@ namespace whaleysans {
      * show a number (up to 19)
      * @param dat is number will be show, eg: 10
      */
-    //% blockId="show_whaleysans_number" block="show a whaleysans number %dat"
+    //% blockId="show_whaleysans_number" block="show a number (0-19) %dat"
     //% dat.min=0 dat.max=99
     export function showNumber(dat: number): void {
         if (dat < 0)
