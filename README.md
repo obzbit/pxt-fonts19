@@ -19,14 +19,12 @@ to search box then search.
 
 ## Basic usage
 
-https://makecode.microbit.org/_9EaTa2E4uA9i
-
 ```
 let item = 0
 basic.forever(function () {
     whaleysans.showNumber(item)
     item += 1
-    if (item > 19) {
+    if (item > 20) {
         item = 0
     }
 })
