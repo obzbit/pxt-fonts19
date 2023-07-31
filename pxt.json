@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "_locales/zh/fonts19-strings.json",
+        "_locales/zh-TW/fonts19-strings.json",
         "fonts19.ts"
     ],
     "testFiles": [
