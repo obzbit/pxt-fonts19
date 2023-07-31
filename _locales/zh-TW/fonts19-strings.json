@@ -1,0 +1,4 @@
+{
+    "fonts19.changeFont|block": "轉換字體 %fontFace"
+    "fonts19.showNumber|block": "顯示數字(0-19) %dat"
+}
