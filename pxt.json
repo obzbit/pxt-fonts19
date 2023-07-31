@@ -1,15 +1,15 @@
 {
-    "name": "WhaleySansFont",
-    "version": "1.1.0",
-    "description": "makecode WhaleySans Font Package for micro:bit",
+    "name": "Fonts19",
+    "version": "0.0.1",
+    "description": "makecode Fonts19 Package for micro:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "_locales/zh/WhaleySansFont-strings.json",
-        "WhaleySansFont.ts"
+        "_locales/zh/fonts19-strings.json",
+        "fonts19.ts"
     ],
     "testFiles": [
         "test.ts"
