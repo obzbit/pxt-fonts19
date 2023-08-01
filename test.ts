@@ -1,8 +1,10 @@
-let item = 0
+let num = 0
+fonts19.changeFont(FontFace.DEFAULT)
 basic.forever(function () {
-    whaleysans.showNumber(item)
-    item += 1
-    if (item > 120) {
-        item = 0
+    num += 1
+    fonts19.showNumber(num)
+    basic.pause(200)
+    if (num > 20) {
+        num = 0
     }
 })
