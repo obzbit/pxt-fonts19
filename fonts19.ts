@@ -24,7 +24,7 @@ namespace fonts19 {
         [0,1,1,1, 0,1,0,0, 0,0,1,0, 0,0,0,1, 0,1,1,1],
         [0,0,1,1, 0,1,0,0, 0,1,1,1, 0,1,0,1, 0,1,1,1],
         [0,1,1,1, 0,0,0,1, 0,0,1,0, 0,0,1,0, 0,0,1,0],
-        [0,0,1,1, 0,1,0,1, 0,0,1,0, 0,1,0,1, 0,1,1,1],
+        [0,1,1,1, 0,1,0,1, 0,0,1,0, 0,1,0,1, 0,1,1,1],
         [0,0,1,1, 0,1,0,1, 0,1,1,1, 0,0,0,1, 0,1,1,1]
     ],[
         [0,1,1,1, 0,1,0,1, 0,1,0,1, 0,1,0,1, 0,1,1,1],
@@ -63,7 +63,7 @@ namespace fonts19 {
      * Change the font face
      * @param fontFace Font face to use
      */
-    //% block="change font face %fontFace"
+    //% block="change font face $fontFace"
     //% weight=100
     export function changeFont(fontFace: FontFace): void {
         switch (fontFace) {
@@ -85,7 +85,7 @@ namespace fonts19 {
      * show a number (up to 19)
      * @param dat is number will be show, eg: 10
      */
-    //% block="show a number (0-19) %dat"
+    //% block="show a number (0-19) $dat"
     //% dat.min=0 dat.max=99
     export function showNumber(dat: number): void {
         if (dat < 0)
