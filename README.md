@@ -1,8 +1,9 @@
-# WhaleySans Font
+# Fonts19
 
-Modified from: makecode WhaleySans Font extension for micro:bit
+Show numbers (0-19) without scroll. Modified from:
 
-The original WhaleySans Font is from [whaleygeek/mb_clock](https://github.com/whaleygeek/mb_clock).
+- makecode [WhaleySans Font](https://github.com/makecode-extensions/WhaleySansFont) extension for micro:bit
+- makecode [Proportional Font](https://github.com/lwchkg/pxt-proportional-font) extension for micro:bit
 
 
 ![](icon.png)  
@@ -12,7 +13,7 @@ The original WhaleySans Font is from [whaleygeek/mb_clock](https://github.com/wh
 
 Open your microbit makecode project. In Add Package, paste  
 
-https://github.com/ykmak/pxt-whaleysans
+https://github.com/obzbit/pxt-fonts19
 
 to search box then search.
 
@@ -25,7 +26,7 @@ to search box then search.
 let num = 0
 basic.forever(function () {
     num += 1
-    whaleysans.showNumber(num)
+    fonts19.showNumber(num)
     basic.pause(100)
     if (num > 20) {
         num = 0
@@ -35,16 +36,22 @@ basic.forever(function () {
 
 ## API
 
-- **showNumber(dat: number)**  
-show a (modified) WhaleySansFont number  
+- **changeFont(fontFace: FontFace)**
+
+change font face
+
+fontFace: DEFAULT, DIGITAL, PROP
+
+- **showNumber(dat: number)**
+
+show a number in selected font
+
 dat: 0-19
 
 
 ## License
 
 MIT
-
-The original WhaleySans Font: Copyright (c) 2018, microbit/micropython Chinese community  
 
 ## Supported targets
 
