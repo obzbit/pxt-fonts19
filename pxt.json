@@ -1,5 +1,5 @@
 {
-    "name": "Fonts19",
+    "name": "pxt-fonts19",
     "version": "0.0.1",
     "description": "makecode Fonts19 Package for micro:bit",
     "license": "MIT",
@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "_locales/zh-TW/fonts19-strings.json",
+        "_locales/zh-TW/pxt-fonts19-strings.json",
         "fonts19.ts"
     ],
     "testFiles": [
